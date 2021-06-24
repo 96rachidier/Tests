@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteSearch"> <!--  le pongo SuiteSearch de nombre, SE PUEDE DEJAR POR DEFECTO LA ORDEM, PERO ASI APARECEN SEPARADOS EN LA CONSOLA -->
+  <test name="Search Blouses"> <!-- Test 1 el de las blusas -->
+    <classes>
+      <class name="com.reportsPackage.qs.SearchBlouses"/>
+    </classes>
+  </test> 
+    <test name="Search Summer Dresses"> <!-- Test 2 el de los cosos de verano -->
+    <classes>
+      <class name="com.reportsPackage.qs.SearchSummerDresses"/>
+    </classes>
+  </test> 
+    <test name="Printed Dress"> <!-- Test 3 el de los estampaditos -->
+    <classes>
+      <class name="com.reportsPackage.qs.SearchPrintedDress"/>
+    </classes>
+  </test> 
+</suite> 

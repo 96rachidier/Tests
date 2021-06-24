@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [SuiteSearch]">
+  <test parallel="none" name="Search Summer Dresses(failed)">
+    <classes>
+      <class name="com.reportsPackage.qs.SearchSummerDresses">
+        <methods>
+          <include name="afterClass"/>
+          <include name="search_SummerBlouses"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.reportsPackage.qs.SearchSummerDresses -->
+      <class name="com.reportsPackage.qs.SearchBlouses">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.reportsPackage.qs.SearchBlouses -->
+      <class name="com.reportsPackage.qs.SearchPrintedDress">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.reportsPackage.qs.SearchPrintedDress -->
+    </classes>
+  </test> <!-- Search Summer Dresses(failed) -->
+  <test parallel="none" name="Printed Dress(failed)">
+    <classes>
+      <class name="com.reportsPackage.qs.SearchSummerDresses">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.reportsPackage.qs.SearchSummerDresses -->
+      <class name="com.reportsPackage.qs.SearchBlouses">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.reportsPackage.qs.SearchBlouses -->
+      <class name="com.reportsPackage.qs.SearchPrintedDress">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="search_PrintedDress"/>
+        </methods>
+      </class> <!-- com.reportsPackage.qs.SearchPrintedDress -->
+    </classes>
+  </test> <!-- Printed Dress(failed) -->
+</suite> <!-- Failed suite [SuiteSearch] -->
